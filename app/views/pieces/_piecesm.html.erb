@@ -1,0 +1,17 @@
+<div id="<%= dom_id piece %>">
+  <div class="container flex col-span-12">
+  <p class="my-5">
+    <strong class="p-8">Title:</strong>
+    <%= piece.title %>
+  </p>
+
+    <p class="my-5 pl-3">
+      <strong>Composer:</strong>
+      <%= piece.composer %>
+    </p>
+
+    <p class="my-5 pl-3">
+      <%= link_to name="Recording", piece.recording %>
+    </p>
+  </div>
+</div>
